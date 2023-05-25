@@ -96,7 +96,6 @@ header h4{
 .iframeType{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
 .iframeType div{
     display: flex;
@@ -117,7 +116,8 @@ form{
     margin-bottom: 20px;
 }
 .inputDiv.saveCard{
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 .inputDiv.saveCard input{
     height: auto;
@@ -126,7 +126,6 @@ form{
 }
 .inputDiv label{
     font-size: 17px;
-    margin-bottom: 10px;
 }
 .inputDiv label span{
     font-size: 10px;
@@ -330,4 +329,19 @@ footer img{
     -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+}
+
+.uniTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uniTitle h1 {
+    font-size: 30px;
+    color: #0A384B;  
+    font-family: Avenir;
+    margin: 0;
+    font-weight: 900;
+    line-height: 20.4px;
 }
